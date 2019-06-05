@@ -1,0 +1,281 @@
+
+/*设置背景*/
+.container-fluid{
+    background: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+/*图标*/
+.h_img{
+    margin-left: 50px;
+}
+/*百姓堂字体*/
+.h_text{
+    color: black;
+    font-size: 33px ;
+    font-weight: bold;
+}
+/*head第一行的高，背景颜色*/
+/*设置鼠标滑过或悬停时变化的背景颜色*/
+.nav-item:hover{
+    background:#2070cb;
+    color: #fff;
+    text-decoration: none;
+}
+/*li的字体颜色*/
+.navbar-dark .navbar-nav .nav-link {
+    float: left;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+    margin:25px 10px;
+    padding: 10px
+}
+/*左侧公司名*/
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+/*小屏时三条杠*/
+.navbar-dark .navbar-toggler {
+    background: darkgray;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+/*右侧qq微信样式*/
+.rightImg{padding: 28px;margin-right: 140px;float:right}
+.rightImg a{margin: 3px;  }
+.breadcrumb{
+    background-color:transparent;
+    font-size: 16px;
+}
+/*录播指示器*/
+.carousel-indicators li{
+    width:12px;height:12px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.carousel-indicators li.active{
+    background-color:#0aa1ed;
+}
+/*轮播左右箭头的样式*/
+.carousel-control-prev,
+.carousel-control-next {
+    width:4%;height:20%;
+    top:40%;background-color: rgba(0,0,0,0.3);
+    border-radius: 4px;
+}
+/*中部关于我们样式*/
+.ind_abo_are {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 78px;
+    height: auto;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*文字介绍占50%*/
+.ind_abo_are .about-content {
+    width: 50%;
+}
+/*关于百姓堂/ABOUT BAIXINGTANG  样式*/
+.ind_abo_are h2 {
+    color: #2070cb;
+    font-size: 48px;
+}
+/*电商行业领跑者  样式*/
+.ind_abo_are h4 {
+    color: #2a2a2a;
+    font-size: 24px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+/*山东百姓堂是国内专注于垂直领域的电子   样式*/
+.ind_abo_are p {
+    color: #666;
+    font-size: 16px;
+    line-height: 30px;
+}
+/*了解更多 按钮  样式*/
+.ind_abo_are a.about-btn {
+    display: block;
+    width: 166px;
+    height: 48px;
+    border-radius: 25px;
+    background: #2070cb;
+    color: #fff;
+    text-align: center;
+    line-height: 48px;
+    margin-top: 48px;
+}
+/*公司外表图  样式*/
+.ind_abo_are .about-img {
+    width: 45%;
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    margin-top: 4%;
+}
+/*<p>ABOUT<br>BAIXINGTANG</p>  样式*/
+.ind_abo_are .about-img .layer {
+    position: absolute;
+    right: 60px;
+    bottom: -38px;
+    background: rgba(0,102,140,.5);
+    width: 620px;
+    height: 318px;
+}
+.ind_abo_are .about-img .layer p {
+    font-size: 100px;
+    color: #c5dae3;
+    opacity: 0.8;
+    line-height: 1;
+    padding: 48px;
+}
+/*品牌产品样式*/
+.ind_pro_are {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    color: #2070cb;
+}
+.text-pro{
+    font-size: 48px;
+}
+.pro_img{
+    width: 1712px;
+    margin:20px 20px 50px 170px;
+}
+
+.Ipro-list {
+    padding: .06rem 0.3472222222222222%;
+}
+
+.clearfix {
+}
+ol, ul {
+    list-style: none;
+}
+.Ipro-list li {
+    width: 50%;
+    padding: .06rem 0.3496503496503496%;
+    float: left;
+}
+.Ipro-box {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+a, a:active {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Ipro-list li img {
+    width: 100%;
+}
+.com-img :hover{
+    transform:scale(1.2);
+    transition:transform 1.5s;
+}
+
+a img {
+    border: 0;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+.Ipro-block {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: .56rem;
+    left: 0px;
+}
+.Ipro-block .t1 {
+    line-height: 38px;
+    font-size: 24px;
+}
+.Ipro-block .t2 {
+    line-height: 30px;
+    font-size: 16px;
+    color: #666666;
+}
+
+
+
+
+
+
+
+
+/*底部样式*/
+.footer_are {
+    width: 100%;
+    height: 620px;
+    background: #2f2f2f;
+    padding: 0 5%;
+    color: #868686;
+    padding-top: 50px;
+    clear: both;
+}
+.footer_are .tit p span {
+    font-weight: bold;
+}
+.footer_are .tit p {
+    font-size: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+.footer_are .msg {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid #3a3a3a;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.footer_are .msg p {
+    padding-left: 35px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #7d7d7d;
+}
+.footer_are .build {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid #3a3a3a;
+    margin-top: 35px;
+    padding-bottom: 20px;
+    height: 320px;
+}
+.footer_are .build .fir .child-item {
+    margin-right: 48px;
+}
+.footer_are .build .item {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.footer_are .build h4 {
+    padding-bottom: 10px;
+    color: #fff;
+}
